@@ -1,33 +1,33 @@
 ﻿using System;
+
 namespace HelloWorld
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("what your name: ");
+            Console.WriteLine("=== C# LEARNING EXAMPLES ===\n");
+            
+            // User Input Example
+            Console.WriteLine("What's your name? ");
             string name = Console.ReadLine();
-            Console.WriteLine("what your age: ");
+            Console.WriteLine("What's your age? ");
             int age = Convert.ToInt32(Console.ReadLine());
-
-            /* we started out with the defining string function and number 
-                - string name = "samuel";
-                - int age = 20;
-                */
-
-            Console.WriteLine("Hello World!" + name);
-            Console.WriteLine("am learing c# at age :" + age);
+            
+            Console.WriteLine($"Hello {name}!");
+            Console.WriteLine($"You're learning C# at age: {age}");
             age += 1;
-            Console.WriteLine("c is awesome" + age);
-            Console.Write("lets build something great \n");
-            Console.Write("what do you think?");
+            Console.WriteLine($"Next year you'll be {age}");
+            Console.WriteLine("Let's build something great!\n");
+            
+            // Run organized examples
+            Examples.DataTypesExample();
+            Examples.ConstantsExample();
+            Examples.StringOperationsExample();
+            
+            Console.WriteLine("\n\nPress Enter to exit...");
             Console.ReadLine();
-
         }
     }
-
-
-    // number 
 }
-// GFGJSHJSJHJHDVHJDS
 
