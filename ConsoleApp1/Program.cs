@@ -24,7 +24,12 @@ namespace HelloWorld
             Examples.DataTypesExample();
             Examples.ConstantsExample();
             Examples.StringOperationsExample();
-            
+
+            // Run conditions examples
+            Conditions.ConditionsExample();
+            Conditions.ShortHandIfElseExample();
+            Conditions.ShortHandIfElseMultipleExample();
+
             Console.WriteLine("\n\nPress Enter to exit...");
             Console.ReadLine();
         }
