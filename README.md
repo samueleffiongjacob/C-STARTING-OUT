@@ -47,25 +47,7 @@ namespace HelloWorld  // Your code's "family name"
     // All classes here belong to HelloWorld
 }
 
-###### Tags
-- C#
-- .NET
-- Fundamentals
-- FAQ
-- $CONTEXT.Language
-- $CONTEXT.Framework
-````````
-
 **`namespace HelloWorld`** - Groups your code together:
-
-###### Tags
-- C#
-- .NET
-- Fundamentals
-- FAQ
-- $CONTEXT.Language
-- $CONTEXT.Framework
-````````
 
 Each file needs these because they work independently. Without them, the code wouldn't know what `Console` is or where it belongs.
 
